@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Evian</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=0" name="viewport">
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <link rel="stylesheet" href="/public/css/responsive.css">
+    <link rel="stylesheet" href="/public/css/content.css">
+    <link rel="stylesheet" href="/public/css/Material.css">
+    <link rel="stylesheet" href="/public/css/materialize.min.css">
+      <link rel="stylesheet" href="/public/css/index.css">
+      <script src="/public/js/materialize.min.js"></script>
+      <link href='http://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="container" id="info">
+    <div class="row">
+    <form id="send-message">
+    <div class="input-field col s6" style="width:100%;">
+    <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="nick validate" length="10">
+          <label for="icon_prefix">Nickname</label>
+    </div>
+      <button id="submit" class="btn waves-effect waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>  
+  </form>
+    </div>
+  </div>
+<section id="left-content">
+<h2 id="gay">접속중인 병신</h2>
+<section class="content_wrapper">
+  <div class="chat_history tap_content">
+  </div>
+  </section>
+</section>
+<section id="right-content">
+  <header id="right-header">
+    <span class="notice">해킹하지마라 시빠꺼</span>
+    <div class="right">
+    <img src="https://help.github.com/assets/images/help/profile/identicon.png">
+    <div class="stranger_name">imkimchi</div>
+    </div>
+    <div class="clear"></div>
+    </header>
+    <div class="wrapper">
+      <div id="messages">
+    </div>
+      </div>
+      <footer>
+        <div class="sibalinput" style="margin-left: 0px; padding-left: 5px;">
+          <form id="main">
+          <input id="user" type="hidden">
+                <input id="input" type="text" class="validate" placeholder="Input Text">
+            </form>
+        </div>
+      </footer>
+    </div>  
+</section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/public/js/common.js"></script>
+    <script>
+    var input = $('#input');
+    var messages = $('#messages');
+
+  var observer = new MutationObserver(function() {
+    if (messages) {
+      messages.scrollTop($("#messages")[0].scrollHeight);
+    }
+  });
+  observer.observe(document, {
+    childList: true,
+    subtree: true,
+    attributes: false,
+    characterData: false,
+  });
+
+</script>
+</body>
+</html>

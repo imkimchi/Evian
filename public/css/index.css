@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  margin-top: -150px;
+  left: 33%;
+  border-box: border-box;
+  padding: 45px 25px 45px 25px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  background-color:white;
+}
+
+#wrapper{
+  display: table;
+}
+button {
+  width: 100%;
+  margin-top: 30px;
+}
+section{
+  visibility: hidden;
+}
+
+#gay{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 100;
+}
+
+.content_wrapper{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 2em;
+}
+
+.notice{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 800;
+  font-size: 3em;
+}

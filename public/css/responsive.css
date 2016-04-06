@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:500,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,900);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+
+#right-header {
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	padding-left: 30px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	display: table-cell;
+	vertical-align: middle;
+	border-bottom: 1px solid #ddd;
+}

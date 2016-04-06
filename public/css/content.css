@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+::selection {
+    background-color: #B2DFDB;
+}
+
+#messages {
+    height: 100%;
+    overflow: auto;
+    padding-left: 15px;
+}
+
+.material-icons {
+    font-size: 36px;
+}
+
+.logo {
+    width: 120px;
+    margin-top: 30px;
+    top: 20px;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.tap {
+    display: inline-block;
+    float: left;
+    width: calc(100% / 3);
+    height: 45px;
+    color: #004D40;
+    text-align: center;
+    text-decoration: none;
+    line-height: 45px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.tap:hover {
+    color: #fff;
+}
+
+footer {
+    padding-top: 30px;
+    positon: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    display: inline-block;
+}
+
+#main {
+    width: 100$;
+}
+
+li {
+    list-style: none;
+}
+
+.tap_content {
+    height: 560px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: auto;
+}
+
+.tap_content {
+    width: 100%;
+}
+
+.group_tap {
+    width: 100%;
+}
+
+.content_wrapper {
+    width: 100%;
+}
+
+.profile-pic {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.user_name {
+    display: inline-block;
+    color: #fff;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.user_name_chat {
+    display: inline-block;
+    font-family: 'Roboto','Noto Sans KR',sans-serif;
+    font-weight: 500;
+    padding-top: 5px;
+    font-weight: 700;
+}
+
+.time-ago,.status {
+    color: #80CBC4;
+}
+
+.article_box {
+    margin-top: 20px;
+}
+
+.group-tap {
+    padding-bottom: 55px;
+    border-bottom: 1px solid #006064;
+}
+
+.main {
+    display: inline-block;
+    width: 70%;
+    margin: 4% 15%;
+    margin-bottom: 100px;
+}
+
+.fa-plus-square-o {
+    vertical-align: middle;
+}
+
+input[type=text] {
+    width: 70%;
+    height: 34px;
+    position: relative;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    margin-right: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.intersted-in {
+    float: left;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+button {
+    display: inline-block;
+}
+
+#left-content {
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    left: 0;
+    background-color: #009688;
+    box-shadow: 1px 0 5px 0 rgba(0,0,0,0.2);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.wrapper {
+    padding-top: 70px;
+    height: 90%;
+    position: relative;
+}
+
+#right-content {
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    right: 0;
+}
+
+i.material-icons.md-36 {
+    vertical-align: middle;
+}
+
+#right-header img {
+    width: 40px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.add,.msg {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.collection {
+    float: left;
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.article_box .material-icons {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 24px;
+    float: right;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.right {
+    float: right;
+}
+
+.text {
+    font-family: 'Roboto','Noto Sans KR',sans-serif;
+}
+
+.msg_box {
+    margin-top: 20px;
+}
